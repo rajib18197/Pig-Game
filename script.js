@@ -68,7 +68,7 @@ btnHold.addEventListener('click', function () {
     document.querySelector(`#points--${activePlayer}`).textContent =
       points[activePlayer];
     // Checking if player's points is less than 100
-    if (points[activePlayer] >= 20) {
+    if (points[activePlayer] >= 100) {
       //Finish the Game
       playing = false;
       diceEl.classList.add('hidden');
